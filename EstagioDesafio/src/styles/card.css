@@ -1,0 +1,39 @@
+.container{
+    width: 98%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 13px;
+    
+}
+.person {
+    width: 230px;
+    height: 220px;
+    border: 2px solid purple; 
+    border-radius: 8px; 
+    margin: 15px; 
+    overflow: hidden;
+    cursor: pointer; 
+    transition: transform 0.2s; 
+    text-align: center; 
+    color: white;
+  }
+  
+ .person:hover {
+    transform: scale(1.02);
+    border: 2px solid green;
+  }
+.person.selected {
+    border-color: #00f;
+  }
+.infoPower{
+    color: green;
+}
+
+.comparison {
+    margin-top: 20px;
+  }
